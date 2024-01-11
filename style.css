@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+header {
+    border: 1px solid black;
+    height: 60px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.video {
+    background-color: black;
+    width: 1300px;
+    height: 900px;
+}
+
+.video img {
+    width: 1500;
+}
+
+.recomendados {
+    background-color: rgb(0, 0, 0);
+    width: 700px;
+    height: 900px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.infos {
+    color: white;
+}
+
+.infos h1{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.infos h2{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.fundo {
+    background-color: #4b4b4b;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infos img{
+    border-radius: 25px;
+}
+
